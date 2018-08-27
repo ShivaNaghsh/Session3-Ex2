@@ -1,0 +1,23 @@
+/* Write a code which gets a number and shows whether it is odd or even */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Session3_Ex2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please ener a number:");
+            int a = int.Parse( Console.ReadLine() );
+            if (a % 2 == 0) { Console.WriteLine("The number is EVEN"); }
+            else { Console.WriteLine("The number is ODD"); }
+
+            Console.ReadKey();
+        }
+    }
+}
